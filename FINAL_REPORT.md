@@ -1,28 +1,13 @@
 # Plaibook AI Outbound Agent - Final Report
 
 **CS 452 Final Project**
-**Author:** [YOUR NAME HERE]
-**Date:** December 2024
+**Author:** Maxwell Prisbrey
 
 ---
 
 ## Project Summary
 
 Plaibook is an AI-powered platform that automates outbound customer engagement through SMS campaigns while giving sales managers real-time oversight through a "Cockpit" interface. The system also ingests call recordings from various softphones (Genesys, Five9, RingCentral, GoHighLevel, CallRail), runs them through AI analysis, and surfaces coaching insights to help teams close more deals. Think of it as giving every sales team an AI co-pilot that handles the grunt work while humans focus on the conversations that actually matter.
-
----
-
-## Demo
-
-**Video Walkthrough:** [INSERT LOOM OR VIDEO LINK HERE]
-
-### Screenshots
-
-> **TODO:** Add screenshots from the application. Suggested screenshots:
-> - Home Dashboard showing revenue tracking and call analytics
-> - Insights Dashboard with call outcomes and objection intelligence
-> - Coaching Dashboard with agent coaching queue
-> - Cockpit/SMS Conversations interface
 
 ---
 
@@ -198,7 +183,7 @@ Claude (via Claude Code) was instrumental throughout development:
 - **Code generation**: Generated boilerplate for new tRPC procedures, Mongoose models, and React components
 - **Debugging**: Traced issues through the Lambda → SQS → MongoDB pipeline when calls weren't processing
 - **Refactoring**: Assisted with feature-based code organization and type safety improvements
-- **Documentation**: Generated technical documentation including CLAUDE.md and this report
+- **Documentation**: Generated technical documentation including CLAUDE.md
 
 > **[YOUR EXPERIENCE - Write 2-3 sentences about how YOU used AI assistance]**
 
@@ -266,24 +251,8 @@ YOUR NOTES HERE:
 
 ---
 
-## Progress Log
-
-> **[FILL IN YOUR ACTUAL PROGRESS LOG - dates and hours spent on database/data-related work]**
-
-| Date | Work Completed | Hours |
-|------|----------------|-------|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| **Total** | | **XX** |
-
----
-
 ## Links
 
-- **Demo Video:** [INSERT LINK]
 - **GitHub Repo:** [INSERT LINK]
 - **Class Channel Post:** [INSERT TEAMS LINK]
 
@@ -291,11 +260,7 @@ YOUR NOTES HERE:
 
 ## Sharing Permission
 
-> **[Choose one and delete the other]**
-
-**Yes, share** - Happy for this to be used as an example for future students.
-
-**No, don't share** - This is proprietary code. Happy to discuss architecture and learnings, but the repo stays private.
+**No, don't share**
 
 ---
 
@@ -313,3 +278,4 @@ YOUR NOTES HERE:
 | Monitoring | Datadog APM, CloudWatch |
 | Build | Turborepo monorepo |
 | Testing | Jest (API), Vitest (Web) |
+
