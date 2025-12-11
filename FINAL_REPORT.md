@@ -69,42 +69,22 @@ The system uses MongoDB with 18+ collections organized around these core entitie
 
 ## What I Learned
 
-> **[YOUR INSIGHTS - Write 2-3 sentences for each section below]**
-
 ### 1. Integration Architecture
 
-_[Write about your experience working with multiple external APIs - what was challenging? What patterns helped?]_
-
 ```
-YOUR NOTES HERE:
-
-
-
-
+It was challenging to really understand how the integrations fit into the larger project. Each call provder (CRM) works so differently, it takes a little bit of work to come to a standardized call system. I was glad to have Ammon's help to understand how he built the first one, and then adapt from that to a more generalized integration.
 ```
 
 ### 2. AI/LLM Data Structuring
 
-_[Write about working with LLMs for conversation analysis, call processing, or chatbot features]_
-
 ```
-YOUR NOTES HERE:
-
-
-
-
+We used OpenRouter for the interactions with LLMs, including for call processing. It is fun to provide a good interface to the user that correctly digests the call information, especially when that call could come from anywhere. It was such a huge blessing to have an AI/LLM process the call information and pick out important details, something that is incredible difficult for something more deterministic.
 ```
 
 ### 3. Database Design & NoSQL Patterns
 
-_[Write about MongoDB schema design, atomic operations, or working with document databases]_
-
 ```
-YOUR NOTES HERE:
-
-
-
-
+I learned that a NoSQL database is a different beast than a relational database, which is what I normally deal with at work. The Mongo approach lets us have great call type flexibility, which helps us move fast, but disallows joins and limits us to more read-query optimized approaches that don't keep storage in different locations.
 ```
 
 ---
@@ -278,4 +258,5 @@ YOUR NOTES HERE:
 | Monitoring | Datadog APM, CloudWatch |
 | Build | Turborepo monorepo |
 | Testing | Jest (API), Vitest (Web) |
+
 
