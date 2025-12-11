@@ -217,8 +217,8 @@ This project matters to me because it's part of my job. Plaibook is a startup ma
 
 ## Links
 
-- **GitHub Repo:** [[INSERT LINK]](https://github.com/MaxThePrisberry/bat-lab)
-- **Class Channel Post:** [[INSERT TEAMS LINK]](https://teams.microsoft.com/l/message/19:ac4bc382e82e4ef6a3b61989d55cf4b8@thread.tacv2/1762372066837?tenantId=c6fc6e9b-51fb-48a8-b779-9ee564b40413&groupId=89222c8a-2991-4873-8d7d-10b1cacaebf4&parentMessageId=1762372066837&teamName=CS%20452%20001%20(Fall%202025)&channelName=Report%20-%20Project%20Pitch&createdTime=1762372066837)
+- **GitHub Repo:** [[GITHUB]](https://github.com/MaxThePrisberry/bat-lab)
+- **Class Channel Post:** [[TEAMS LINK]](https://teams.microsoft.com/l/message/19:ac4bc382e82e4ef6a3b61989d55cf4b8@thread.tacv2/1762372066837?tenantId=c6fc6e9b-51fb-48a8-b779-9ee564b40413&groupId=89222c8a-2991-4873-8d7d-10b1cacaebf4&parentMessageId=1762372066837&teamName=CS%20452%20001%20(Fall%202025)&channelName=Report%20-%20Project%20Pitch&createdTime=1762372066837)
 
 ---
 
@@ -242,6 +242,7 @@ This project matters to me because it's part of my job. Plaibook is a startup ma
 | Monitoring | Datadog APM, CloudWatch |
 | Build | Turborepo monorepo |
 | Testing | Jest (API), Vitest (Web) |
+
 
 
 
